@@ -1,0 +1,82 @@
+*{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#cardCourse{
+    background-color: #1F1D35;
+    transition: border-color 0.3s ease-in-out;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+@media (min-width:1200px) {
+    #cardCourse{
+        min-width: 37rem;
+    }
+}
+
+@media (max-width:1024px) {
+    #cardCourse{
+        min-width: 27rem;
+    }
+
+    #divCalendar{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1023px) {
+    #divCalendar{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    #cardCourse h3{
+        font-size: 1.25rem;
+    }
+
+    #cardCourse span{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width:500px) {
+    #cardCourse{
+        height: 180px;
+        min-width: 20rem;
+        width: 88vw;
+    }
+
+    #infomyCourse{
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    #imagemyCourse{
+        min-width: 120px;
+        height: 100%;
+    }
+}
+
+#cardCourse:hover{
+    border: 3px solid #AA47F0;
+}
+
+#courseDate{
+    color: #AA47F0;
+}
+
+#currentDate{
+    color: #AA47F0;
+}
+
+#optionChosen{
+    color: #AA47F0;
+}

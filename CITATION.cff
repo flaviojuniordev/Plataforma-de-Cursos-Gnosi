@@ -1,0 +1,38 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Gnosi
+authors:
+  - family-names: de Resende Marcelino
+    given-names: Bernardo 
+  - family-names: de Souza Ferreira Júnior
+    given-names: Flávio 
+  - family-names: Carvalho Pereira Araújo
+    given-names: João Marcelo 
+  - family-names: Figueiredo Diniz
+    given-names: Miguel 
+  - family-names: Gomes Silva de Oliveira
+    given-names: Maria Clara 
+  - family-names: Costa Soares
+    given-names: Thiago 
+  - family-names: Agner Duarte Moura
+    given-names: Kauã
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Alonso Veloso
+    given-names: Eveline 
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Baroni De Carvalho
+    given-names: Juliana Amaral 
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Norberta de Brito
+    given-names: Aline
+    
+keywords:
+    - Educação Virtual
+    - Aulas 
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-2-ti2-3687100-gnosi
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-12-10

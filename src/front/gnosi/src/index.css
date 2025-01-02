@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    cursor: url('./assets/cursor.png'), auto;
+}
+
+a,
+button,
+img,
+.card,
+label,
+h1,
+h2,
+h3,
+h4,
+p {
+    cursor: url('./assets/left.png'), pointer;
+}

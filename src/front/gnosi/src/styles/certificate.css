@@ -1,0 +1,16 @@
+.certificate-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.certificate-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-12 {
+    margin-top: 10rem; /* Ajuste o valor conforme necessário */
+}

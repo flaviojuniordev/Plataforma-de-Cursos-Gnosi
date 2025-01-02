@@ -1,0 +1,95 @@
+.metrics-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.metrics-container {
+    flex: 1;
+    margin: 50px auto; /* Centraliza a métrica */
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px; /* Aumenta a distância do footer */
+    margin-top: 150px; /* Adicione esta linha para aumentar a distância do Navbar */
+}
+.metrics-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: auto;
+}
+.metrics-title-container {
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+
+.metrics-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.metrics-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.metric-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    flex: 1 1 calc(33% - 20px);
+    min-width: 250px;
+}
+
+.metric-card h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+}
+
+.metric-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.metric-card p span {
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .metrics-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .metric-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#Footer {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1F1D35;
+}
+
+@media (max-width: 768px) {
+    #Footer {
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .site-elements {
+        display: none;
+    }
+
+    .logo-container {
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-container img {
+        width: 80px;
+        height: auto;
+    }
+}

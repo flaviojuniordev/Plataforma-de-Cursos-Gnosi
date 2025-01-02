@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* signin.css */
+.signin-container input[type="radio"]:checked:hover {
+    background-color: #AA47F0;
+}
+
+.signin-container input[type="radio"]:active {
+    background-color: #AA47F0;
+}
+
+.signin-container input[type="radio"] {
+    background-color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .signin-container #container {
+        margin-top: -100px;
+    }
+
+    .signin-container .acesso-button {
+        margin-bottom: 20px;
+    }
+
+    .signin-container .bg-img-atenas {
+        background-image: url("../assets/templeatenas.jpg");
+    }
+
+    .signin-container .radio-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .signin-container .radio-container div {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    .signin-container .radio-container label {
+        margin-left: 0.5rem;
+    }
+}

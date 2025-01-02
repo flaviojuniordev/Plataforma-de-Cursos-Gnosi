@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="radio"]:checked {
+    background-color: #AA47F0;
+    /* Cor quando selecionado */
+}
+
+input[type="radio"]:checked:hover {
+    background-color: #AA47F0;
+}
+
+/* Mudança de cor ao clicar (quando ativo) */
+input[type="radio"]:active {
+    background-color: #AA47F0;
+}
+
+input[type="radio"] {
+    background-color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.cadastro-button {
+    background-color: #AA47F0; /* Cor roxa */
+    color: white; /* Texto branco */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s;
+}
+
+.cadastro-button:hover {
+    background-color: #9A3FE0; /* Cor roxa mais escura ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    #container {
+        margin-top: 20px;
+        /* Ajusta a margem superior para telas menores */
+    }
+    .cadastro-button {
+        margin-bottom: 20px;
+        /* Mais espaço abaixo do botão em telas menores */
+    }
+
+    .bg-img-atenas {
+        background-image: none;
+        /* Remover a imagem de fundo em telas menores, se necessário */
+    }
+
+    .radio-container {
+        display: flex;
+        justify-content: flex-start;
+        /* Alinha os itens à esquerda */
+        margin-top: 1rem;
+        /* Espaço entre o campo anterior e os inputs de rádio */
+    }
+
+    .radio-container div {
+        display: flex;
+        align-items: center;
+        /* Centraliza verticalmente */
+        margin-right: 1rem;
+        /* Espaço entre os inputs de rádio */
+    }
+
+    .radio-container label {
+        margin-left: 0.5rem;
+        /* Ajusta o espaço entre o input e o label */
+    }
+}

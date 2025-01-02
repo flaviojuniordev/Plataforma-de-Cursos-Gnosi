@@ -1,0 +1,195 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#gnosiHomeTitle {
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    #gnosiHomeTitle {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #gnosiHomeTitle {
+        font-size: 2rem;
+    }
+}
+
+#cardHome {
+    background-color: #1F1D35;
+    transition: border-color 0.3s ease-in-out;
+    cursor: pointer;
+    width: 15vw;
+    height: 95%;
+    border: 3px solid transparent;
+}
+
+#imagemCurso {
+    width: 13.1vw; /*13.1 sรณ pra n ser 13 igual o lula*/
+    height: 10vw;
+}
+
+#Banner-Container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#gnosiHomeTitle{
+    text-align: left;
+    margin-left: 75px;
+}
+
+#cardHome:hover {
+    border: 3px solid #AA47F0;
+}
+
+#courseDate {
+    color: #AA47F0;
+}
+
+#currentDate {
+    color: #AA47F0;
+}
+
+#optionChosen {
+    color: #AA47F0;
+}
+
+#HomeBannerImage {
+    width: 100vw;
+    height: 320px;
+    justify-content: center;
+}
+
+#HomeCourseList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#courseCategories {
+    margin-left: 45px;
+}
+
+@media screen and (max-width: 1200px) {
+    #HomeBannerImage {
+        width: 100vw;
+        height: auto;
+    }
+
+    #HomeBannerText {
+        font-size: 1.8rem;
+    }
+
+    #cardHome{
+        min-width: 200px;
+    }
+
+    #imagemCurso{
+        min-width: 160px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #HomeBannerText {
+        font-size: 1.3rem;
+    }
+
+    #HomeBannerImage {
+        width: 100vw;
+        height: auto;
+    }
+
+    #cardHome{
+        min-width: 190px;
+    }
+
+    #courseCategories button{
+        font-size: 1.1rem;
+    }
+
+}
+
+#HomeCourseList{
+    margin-left: 30px;
+}
+
+@media (max-width: 640px) {
+    #HomeBannerImage {
+        width: 100vw;
+        height: 110%;
+    }
+
+    #HomeBannerText {
+        margin-top: 5px;
+        font-size: 2.5vw;
+    }
+
+    #cardHome{
+        display: flex;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 4px 0;
+        padding: 0px 0px 16px 10px;
+        height: 170px;
+        min-width: 22rem;
+        max-width: 550px;
+        width: 88vw;
+        cursor: pointer;
+    }
+
+    #imagemCurso{
+        min-width: 120px;
+        height: 90%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    #course-name{
+        font-size: 20px;
+    }
+
+    #courseDate{
+        font-size: 16px;
+    }
+
+    #courseCategories{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #HomeCourseList{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    #gnosiHomeTitle{
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    #courseCategories button{
+        font-size: clamp(1rem, 2vw, 1.4rem);
+    }
+}
+
+#modalHome {
+    background-color: #1F1D35;
+    color: #fff;
+}
+
